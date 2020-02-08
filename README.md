@@ -1,2 +1,2 @@
 # leoramos1292.github.io
-This is the code to my Portfolio Website
+This is my Portfolio Website

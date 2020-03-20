@@ -17,6 +17,11 @@ body {
     background-size: cover;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 .card {
     background-color: var(--wrapper-black);
     border: hidden;
@@ -126,34 +131,6 @@ body {
     border-radius: 8px;
 }
 
-
-#gitHub {
-    background-color: var(--lighter-black);
-    text-align: center;
-    max-width: 45%;
-    margin-left: 2.5%;
-    margin-right: 5%;
-    padding: 30px 135px 30px 135px;
-    border: 2px solid;
-    border-radius: 8px;
-    float: left;
-}
-
-.githubPic {
-    width: 250px;
-    height: 250px;
-    margin-top: 30px;
-    border: 2px solid;
-    border-color: gray;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    opacity: .8;
-}
-
-.githubPic:hover {
-    opacity: 1;
-}
-
 #form {
     background-color: var(--lighter-black);
     text-align: center;
@@ -202,4 +179,24 @@ footer {
        text-align: center;
        margin-top: 5px;
        margin-bottom: 5px;
+}
+
+
+@media screen and (max-width: 900px) {
+    #About {
+        max-width: 95%;
+    }
+
+    #form {
+        max-width: 95%;
+    }
+
+    .inputBox {
+        max-width: 95%;
+    }
+
+    .card {
+        margin-left: auto;
+        margin-right:auto;
+    }
 }
